@@ -17,7 +17,7 @@ public class TodolistApplication {
 		return args -> {
 			todoRepository.deleteAll();
 
-			Todo todo1 = new Todo("Configurar JDK","Preciso aprender a configurar o jdk corretamente", StatusEnum.NOT_STARDED);
+			Todo todo1 = new Todo("Configurar JDK","Preciso aprender a configurar o jdk corretamente", StatusEnum.NOT_STARTED);
 			Todo todo2 = new Todo("Estudar Java","Estudar Java", StatusEnum.IN_PROGRESS);
 			Todo todo3 = new Todo("Estudar HTML","Estudar HTML", StatusEnum.FINISHED);
 

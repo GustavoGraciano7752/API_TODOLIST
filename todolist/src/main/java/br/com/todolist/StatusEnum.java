@@ -1,5 +1,5 @@
 package br.com.todolist;
 
 public enum StatusEnum {
-    NOT_STARDED, IN_PROGRESS, FINISHED
+    NOT_STARTED, IN_PROGRESS, FINISHED
 }
